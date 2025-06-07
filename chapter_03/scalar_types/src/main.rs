@@ -10,8 +10,8 @@ fn main () {
     let num3 : u8 = 255;
 
     // floating types
-    let x : f32 = 2.0;
-    let y : f64 = 4.0;
+    let x : f32 = 2.0; // 32 bits size
+    let y : f64 = 4.0; // 64 bit size
     let z = 6.7; // by default f64 as it depends upon arch type
     let f = -7.8;
 }
